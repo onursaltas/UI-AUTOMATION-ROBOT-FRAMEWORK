@@ -1,0 +1,13 @@
+*** Settings ***
+Documentation   Resource file for Inventory Page related keywords. All keywords for inventory page will be added in this file.
+Library         InventoryPage.InventoryPage
+
+*** Keywords ***
+Navigate to inventory page
+    go_to_inventory_page
+
+Verify item "${item}" is listed on inventory page
+    check_item_listing       ${item}
+
+Add item "${item}" to cart
+    add_item_to_cart     ${item}
