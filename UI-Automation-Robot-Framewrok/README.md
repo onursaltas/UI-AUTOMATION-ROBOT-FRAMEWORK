@@ -1,6 +1,5 @@
 # RobotFramework-Python3-SeleniumLibrary- Web UI Automation.
 
-![alt text](https://raw.githubusercontent.com/yuvrajkpatil/UIAutomation/main/images/banner.png)
 
 Tested on:
 ------------------
